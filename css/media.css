@@ -1,0 +1,62 @@
+@media screen and (max-width: 1200px){
+    .item{
+        margin-right: 30px;
+    }
+    .nav-buttons a{
+        margin-right: 0px;
+        padding: 9px 10px;
+    }
+    .block-content,
+    .block-content img{
+        display: none;
+    }
+    .line-decor{
+        max-width: 80%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 1000px){
+    .card{
+        width: 45%;
+    }
+}
+@media screen and (max-width: 850px){
+    .header{
+        display: block;
+        text-align: center;
+    }
+    .nav{
+         max-width: 606px;
+         margin: 0 auto;
+    }
+    .line-decor{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .menu{
+        margin-right: 0;
+    }
+    .main-theme{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .theme{
+        padding-top: 30px;
+    }
+    .center-section h2{
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 650px){
+    .nav{
+        display: none;
+    }
+    .card{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .card h5{
+        padding-top: 50px;
+        margin-bottom: 10px;
+    }
+}
